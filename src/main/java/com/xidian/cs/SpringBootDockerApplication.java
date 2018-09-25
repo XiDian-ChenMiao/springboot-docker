@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class SpringBootDockerApplication {
     @GetMapping("/index")
     public String index() {
-        return "Hello Docker!";
+        return "Hello DevCloud-2018!";
     }
 
     public static void main(String[] args) {
